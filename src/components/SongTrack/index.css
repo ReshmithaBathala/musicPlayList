@@ -1,0 +1,58 @@
+.song-details-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+.image {
+  height: 100px;
+  width: 160px;
+}
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+}
+.image-genre-container {
+  display: flex;
+  flex-direction: row;
+}
+.duration-delete-container {
+  display: flex;
+}
+.song-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 10px;
+}
+.song-genre {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  color: #3b82f6;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.duration {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-right: 10px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.delete {
+  height: 30px;
+  color: #ffffff;
+  width: 40px;
+  padding-top: 8px;
+}
